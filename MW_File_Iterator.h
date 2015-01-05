@@ -17,7 +17,7 @@ typedef int MW_Int;
 typedef enum {
     
     MW_FI_CondRetOK ,
-    /* Concluiu corretamente */
+    /* Done correctly */
     MW_FI_CondRetMemoryLack ,
     /* There`s no memory left */
     MW_FI_CondRetFileNotFound ,
