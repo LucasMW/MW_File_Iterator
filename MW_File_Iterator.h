@@ -19,17 +19,10 @@ typedef enum {
     MW_FI_CondRetOK ,
     /* Concluiu corretamente */
     MW_FI_CondRetMemoryLack ,
-    /* Não há memória pra alocar */
+    /* There`s no memory left */
     MW_FI_CondRetFileNotFound ,
-    /* o grafo não contém elementos */
-    MW_FI_CondRetArestaJaExiste,
-    /* A aresta já existe */
-    MW_FI_CondRetNoNaoExiste,
-    /* O nó não existe */
-    MW_FI_CondRetArestaNaoExiste,
-    /* A aresta já existe */
-    MW_FI_CondRetJaEsta
-    /* Já está no nó */
+    /* File couldn`t be opened correctly */
+    
     
 } MW_FI_tpCondRet ;
 
