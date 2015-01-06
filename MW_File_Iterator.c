@@ -46,8 +46,53 @@ MW_FI_tpCondRet MW_FI_CreateIterator( MW_FI_tppFI* refFI, char* inputPath, char*
     
     return MW_FI_CondRetOK;
 }
-MW_FI_tpCondRet MW_FI_GetData(MW_FI_tppFI iterator, void** refVector )
+MW_FI_tpCondRet MW_FI_GetData(MW_FI_tppFI iterator, void** refVector, MW_Int * refSizeOfVector)
 {
     *refVector=(void*)iterator->data;
+    *refSizeOfVector=(MW_Int)iterator->sizeOfData;
+    return MW_FI_CondRetOK;
+}
+MW_FI_tpCondRet MW_FI_AdvanceReading(MW_FI_tppFI iterator)
+{
+    char c,r;
+    MW_Int i=0;
+    do
+    {
+        r=fscanf(iterator->input,"%c",&c);
+        iterator->data[i]=c;
+        i++;
+    }while(i<iterator->sizeOfData && r!=EOF);
+    if(r==EOF)
+    {
+        i--; //cancells iteration
+        return MW_FI_CondRetEOF;
+    }
+//Warning not sure yet if another data field is required to save i value ( shorter vector limit by the EOF
+    
+    return MW_FI_CondRetOK;
+}
+MW_FI_tpCondRet MW_FI_AdvanceWriting(MW_FI_tppFI iterator)
+{
+    
+    MW_Int i;
+    for(i=0; i<iterator->sizeOfData && iterator->bytesWritten<iterator->fSize; i++)
+    {
+        fprintf(iterator->output,"%c",iterator->data[i]);
+        iterator->bytesWritten++;
+    }
+    
+    return MW_FI_CondRetOK;
+}
+MW_FI_tpCondRet MW_FI_DestroyIterator(MW_FI_tppFI iterator)
+{
+    fclose(iterator->input);
+    fclose(iterator->output);
+    free(iterator->data);
+    iterator->fSize=0;
+    iterator->sizeOfData=0;
+    iterator->data=NULL;
+    iterator->bytesWritten=0;
+    iterator->input=NULL;
+    iterator->output=NULL;
     return MW_FI_CondRetOK;
 }
