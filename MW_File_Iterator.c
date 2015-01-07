@@ -30,7 +30,7 @@ MW_FI_tpCondRet MW_FI_CreateIterator( MW_FI_tppFI* refFI, char* inputPath, char*
 {
     (*refFI)=(MW_FI_tppFI)malloc(sizeof(MW_FI_tpFI)); //allocs FI
     
-    (*refFI)->input=fopen(inputPath,"wb");
+    (*refFI)->input=fopen(inputPath,"rb");
     if(!((*refFI)->input))
         return MW_FI_CondRetFileNotFound;
     (*refFI)->output=fopen(outputPath,"wb");
