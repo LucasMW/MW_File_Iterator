@@ -1,25 +1,141 @@
-A Rede Globo fez uma verdadeira bagunça com o filme “Tim Maia – Vale Tudo”. Nos dias 1 e 2 de dezembro, a emissora transmitiu o especial “Tim Maia – Vale o que vier”, que é uma edição cortada do filme, com a inclusão de uma série de depoimentos. Coisa digna de vergonha alheia.
+Togekiss, The Jubilee Pokémon. As everyone knows, it visits peaceful regions, bringing them gifts of kindness and sweet blessings. It shares many blessings with people who respect one another's rights and avoid needless strife. t will never appear where there is strife. Its sightings have become rare recently.
 
-O diretor do filme, Mauro Lima, disse: “sugiro que não assistam essa versão na Globo. Trata-se de um subproduto que não escrevi daquele modo, nem dirigi ou editei”.
+Overview
 
-Até aí tudo bem. Estamos acostumados com filmes cortados e reeditados, muitas vezes de forma que desagradem aos seus diretores. Por exemplo, o filme Calígula, de Tinto Brass, foi reeditado em 1979 por Bob Guccione (dono da Penthouse), que incluiu vários minutos de cenas de sexo explícito, que não haviam sido filmadas por Brass. Este optou por retirar seus nomes dos créditos. Essas coisas, enfim, acontecem.  E cada um que vá assistir a versão que quiser.
+Togekiss is a great Pokémon, always one that has caused issues with opponents and has had its uses. It's also unique in that not only did getting an evolution in Generation IV make it viable compared to its pre-evolved state, but thanks to the Eviolite addition in Generation V, its pre-evolution is now also very usable, all thanks to Togekiss existing. Its common niche, Paraflinching, is still a well used thing, even though Electric-types now resist it, and it recently underwent a drastic change. As of Pokémon X & Y, it lost its Normal typing and became a Fairy/Flying-type Pokémon. This added to its uses, but also gave it a couple of extra weaknesses. With its ability and its bulk, it is truly a force to be reckoned with
+Positives
++ It has a ridiculously vast movepool, allowing it to have so many uses
++ It has decent Special Attack, 120 as a base is nothing to scoff at
++ Its Special Defense means that it will be able to survive most super effective hits that threaten it
++ Its ability of Serene Grace, tied with its movepool, means that this cute flying thing can be absolutely evil
++ It has made Togetic usable too
++ Thanks to its new typing, it now resists Dragon and Dark, while increasing resistance to Bug and Fighting
 
-Não para os blogs governistas, que defendem a tese de que a edição inconveniente do filme de Tim Maia é um argumento para a censura de mídia.
+Negatives
+-Its physical Defense and Hit Points could be better
+-It lost its Ghost-type immunity and gained weaknesses to Poison and Steel, both types that are seeing increased usage of late
+-Its Speed leaves something to be desired
+-It's another Fairy-type that doesn't learn Moonblast. Utter madness.
+-Its Attack stat sucks, which is a shame as it gets Extreme Speed and Drain Punch. So much potential lost.
 
-Leia esse trecho do texto do texto O que tim Maia tem a ver com a regulação econômica da mídia?, de Daniel Dantas:
+Abilities
 
-    O Diário do Centro do Mundo abordou o tema (que também foi notícia em outros sites) em alguns textos neste sábado.Aqui Kiko Nogueira defende que o problema com o personagem Roberto Carlos na série/filme é um apenas um detalhe no que ele chama de “falsificação da biografia de Tim Maia”. Aqui, em texto reproduzido do MSN, o desabafo de Leo Maia acerca do desagrado com o produto veiculado pela Globo: “Meu pai não merecia algo tão tendencioso”. Leo promete um documentário contado a história da vida do pai.
+Hustle: Damage from physical attacks is increased by 50%, but average accuracy is only 80%. - Good god no. Never use this. It's not worth it.
+Serene Grace: The chances of a move having a secondary effect is doubled. - Ah what a glorious ability. It's so amazing. Now, all secondary effect chances are doubled, so with moves like Air Slash, you have a 60% chance of Flinching and so forth. Utter cruelty and is Togekiss' main gimmick.
+Hidden Ability (Available):
+Super Luck: Raises the critical-hit ratio of moves by one level. - Ok, this is a decent ability too, as it makes critical hits more likely, but on a Pokémon who can have Serene Grace, you'd be mad to run this.
 
-    Mesmo tendo sua própria gravidade, o caso de Tim Maia se converte em sintoma de algo muito pior: a sociedade brasileira não tem mecanismos eficazes de defesa contra a manipulação das informações por parte da mídia e, por isso, tende a crer serem lebres os gatos que lhes são vendidos pela mídia. Se a emissora vendeu ao espectador uma obra fictícia no formato de docudrama como se pode afirmar que não é isso – obra fictícia – toda a produção jornalística da Globo? Sua credibilidade, portanto, se põe em xeque.
+Movesets
 
-    No entanto, não se tem uma defesa eficaz e, desse modo, por exceção daqueles que tiveram acesso ao debate sobre o tema na Internet, a versão fictícia sobre Tim Maia e Roberto Carlos exibida esta semana na maior emissora do país foi tornada real para a maior parte do público que a assistiu.
+Paralysing Kiss
 
-Quanta calhordice, quanta desonestidade intelectual, quanto oportunismo desonesto.
+-Air Slash
+-Thunder Wave
+-Aura Sphere
+-Dazzling Gleam/Psyshock/Shadow Ball/Flamethrower/Roost
+Item Attached: Leftovers/Life Orb
+Ability: Serene Grace
+EVs and Nature:
+EVs: 252 SATK/252 SPD/4 HP
+Modest or Timid Nature
+This is a bog-standard Togekiss set. Air Slash is the Togekiss gimmick and, despite its low power, will offer the 60% chance of flinching. Thunder Wave is a good move to set up with as it'll make the opponent lose half its Speed, making it more likely for Togekiss to outspeed it and land the flinch. Then, even if they don't flinch, they have a 50% chance of not being able to move anyway due to Paralysis. Of course, this doesn't work on Electric-type Pokémon, but you'd have to be mad to keep Togekiss out against one of them anyway. Aura Sphere monopolises on Togekiss' high Special Attack and is a move that only misses due to Protect. The other moves are user's choice, providing various bits of coverage, or Roost in order to help regain any health lost.
 
-Para início de conversa, comparar uma edição editada de um filme com jornalismo é coisa de maluco ou safado. Não há outra opção. Enfim, a exibição de uma edição bizarra de um filme não revela absolutamente nada sobre o jornalismo da Globo.
+Nasty Kiss
 
-E o mecanismo de defesa nós já temos, que é assistir a versão dos cinemas, ou a versão dos DVD’s. Não é preciso de nenhum outro mecanismo além desse.
+-Nasty Plot
+-Air Slash
+-Roost
+-Dazzling Gleam/Aura Sphere/Psyshock/Shadow Ball/Flamethrower/Baton Pass
+Item Attached: Leftovers
+Ability: Serene Grace
+EVs and Nature:
+EVs: 252 HP / 240 SpD / 16 Spe or 252 SATK /252 SpD / 4 HP
+Calm or Modest Nature
+Togekiss is unique in that it has the bulk to manage to set up a Nasty Plot. Using that, its Special Attack is now doubled which means it can hit ridiculously hard. Seriously, ridiculously hard. Using Air Slash, which isn't a powerful move in general, it has the ability to 2HKO most opponents, if they're not down in one hit. Roost, as always, allows you to recover health while the final slot can be used one of multiple ways. Either use it for some powerful other moves or you can use it to Baton Pass the Nasty Plot to another Pokémon in your squad, potentially making the other team member an absolute monster as well.
 
-Mas esse tipo de apelação vinda da BLOSTA já mostra que para eles, vale tudo na luta por censurar a mídia.
+Other Options
 
-by Luciano Ayan
+AncientPower, Body Slam, Choice Specs, Heal Bell, Tailwind, Wish, Yawn
+Ancient Power is a moderately good move, but thanks to Serence Grace, you now have a 1 in 5 chance of having every stat boosted. That's nothing to scoff at.
+Body Slam is a decent move that does damage, but with Togekiss' physical Attack, it's not the best, plus even with the Serene Grace boost, it doesn't guarantee Paralysis.
+Choice Specs can be used to boost the Special Attack of Togekiss even further, but it will lock you into a move so it may not be the best choice.
+In a metagame of Will-O-Wisp and other status inflictors, Heal Bell is a decent option to help heal your entire team of these statuses
+Tailwind is an option to boost Togekiss' Speed to allow it to monopolise on the flinch more, but compared to Thunder Wave, it's probably not the best option
+Wish is a good option for recovery, and can be used for switching an injured Pokémon in for healing Yawn will put opponents to Sleep, allowing you to set up things like Nasty Plot or to recover.
+
+Double & Triple Battle Options
+
+The ONE Pokemon many were dying to have JUST to spite Garchomp in VGC14 was absent, now in the VGC15 rule set, Garchomp is hardly the tyrant it was the year before. Everyone! Welcome the Pokemon who came one year late, Togekiss!
+
+Toge-Toge-Toge
+
+- Tailwind/Thunder Wave
+Air Slash
+Follow Me
+Protect / Dazzling Gleam
+Item Attached: Sitrus Berry
+Ability: Serene Grace
+EVs and Nature:
+EVs: 252 HP/ 252 Def / 4 SDef
+Bold Natutre
+
+Togekiss is an excellent supportive Partner, it provides speed control through Tailwind or Thunder Wave and then continues to annoy opponent's through ~54% Flinches through Air Slash, or redirecting single target moves altogether by Follow Me. Dazzling Gleam is mainly for showing off the new Fairy typing, but Protect, in conjunction with Follow Me, puts you in a position to play mind games with the opponent. Close to nothing is more rewarding than Protecting on a turn your opponent decides to double target Togekiss because of how annoying it can be. Don't expect to make many friends when you win a match through 7-8HKOing their Tyranitar or Heatran through flinches.
+
+Because Togekiss is currently one of five fully evolved Pokemon to learn Follow Me, it's partners will likely be all over the place, regardless of overlapping weaknesses. Mamoswine and Mega Charizard Y are seemingly meant for each other, only their speed can be a letdown which Togekiss can help with through Tailwind. Aegislash likes to hide behind Substitutes, and Follow Me helps that.
+
+Togekiss is arguably the best Follow Me user, but its typing alongside the Pokemon who enjoy redirection usually clash by sharing weaknesses, Gyarados? Discharge. Salamence? Icy Wind/Blizzard/ROCK SLIDE. The list goes on. One may want to enlist Wide Guard support to keep Togekiss's team from falling victim to the various spread moves aimed at it commonly.
+
+Countering Togekiss
+
+Togekiss is a tricky one to counter. It has decent Special Defense which means that it can shrug off many of the moves that threaten it such as Flash Cannon, Thunderbolt, Ice Beam etc., even from powerful threats. Its physical Defence, however, is a bit mediocre so what you really need to do is go for that. With Pokémon such as Mega Metagross' Meteor Mash, or even a couple of Bullet Punches from that or Technician Scizor should do decent damage. A Pokémon with Inner Focus is also the bane of Togekiss' existence, as it ruins the one niche that Togekiss has carved itself thanks to its ability. Removing its ability is also a great strategy and will cause many players to rage and remove it from battle..
+
+Pre-Evolution Corner - Togetic
+
+Togetic is actually a very usable Pokémon now, all thanks to Eviolite. As standard, Togetic's defenses are pretty decent, with 85/105, but thanks to the Eviolite boosting both by 50%, they are an utter beast which allows you to use Togetic in ways Togekiss cannot be used. Unfortunately, Togetic doesn't have access to Air Slash, which means it can't do what Togekiss can, but it still has carved it's own niche.
+
+Togetic Tock
+
+-Nasty Plot
+-Baton Pass
+-Roost
+-Dazzling Gleam / Fire Blast / Shadow Ball / Magical Leaf / Ancient Power
+Item Attached: Eviolite
+Ability: Serene Grace
+EVs and Nature:
+EVs: 248 HP / 252 Def / 8 SpD
+Bold Nature
+
+This set runs similarly to the last set on Togekiss for singles. Thanks to its ridiculous defences, you now have the ability to set up a Nasty Plot or two. This will then allow for you to Baton Pass it to other Pokémon. Roost will allow for you to more easily shrug off any hits that come your way, and let's face it, they won't touch you that much, while the final slot gives you options. These options will prevent you from being Taunted to your detriment. If you can drum up a Nasty Plot, then Togetic is very capable. Its Special Attack as standard is mediocre bordering on good, but with a Nasty Plot doubling it, it becomes a beast. Set off another one and it'll be able to destroy. Dazzling Gleam gets you a STAB boost while the others give good coverage and all have certain effects such as potential to Burn, lower Special Defense, boost your stats or never miss.
+
+Locations in Games
+
+Ruby/Sapphire/Emerald:
+Not in game
+
+FireRed/LeafGreen:
+Not in game
+
+Colosseum/XD:
+Not in game
+
+Diamond/Pearl/Platinum:
+Evolve Togetic
+
+HeartGold/SoulSilver:
+Evolve Togetic
+
+Black/White:
+Evolve Togetic (White)
+Trade from White, Black 2 or White 2 (Black)
+
+Black 2/White 2:
+Evolve Togetic
+
+X/Y:
+Route 17
+Evolve Togetic
+
+Omega Ruby/Alpha Sapphire:
+Evolve Togetic
+
+from http://serebii.net/potw-xy/468.shtml

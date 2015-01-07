@@ -32,6 +32,25 @@ int main (void)
 	}
 	printf("limit: %d\n",limit);
 	MW_FI_DestroyIterator(iterador);
+	/* Current Use test */
+	printf("Current use test\n");
+	MW_FI_CreateIterator(&iterador,"test1.txt","test2.txt",FISIZE);
+	while(MW_FI_AdvanceReading(iterador)!=MW_FI_CondRetEOF)
+	{
+		MW_FI_GetData(iterador,&vector,&limit);
+		for(i=0;i<limit;i++)
+		{
+			printf("%c",vector[i]);
+		}
+		MW_FI_AdvanceWriting(iterador);
 
+	}
+	MW_FI_GetData(iterador,&vector,&limit);
+	for(i=0;i<limit;i++)
+		{
+			printf("%c",vector[i]);
+		}
+	MW_FI_AdvanceWriting(iterador);
+	MW_FI_DestroyIterator(iterador);
 	return 0;
 }
