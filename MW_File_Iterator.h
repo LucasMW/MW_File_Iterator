@@ -22,8 +22,10 @@ typedef enum {
     /* There`s no memory left */
     MW_FI_CondRetFileNotFound ,
     /* File couldn`t be opened correctly */
-    MW_FI_CondRetEOF
+    MW_FI_CondRetEOF,
     /* End Of File */
+	MW_FI_CondRetFinishedWriting
+	/* Finished Writing */
     
     
 } MW_FI_tpCondRet ;
