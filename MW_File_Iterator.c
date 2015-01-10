@@ -104,3 +104,7 @@ MW_FI_tpCondRet MW_FI_DestroyIterator(MW_FI_tppFI iterator)
     iterator->output=NULL;
     return MW_FI_CondRetOK;
 }
+void MW_FI_DebugStruct(MW_FI_tppFI iterator)
+{	
+	printf("output: %d\n ",iterator->output);
+}

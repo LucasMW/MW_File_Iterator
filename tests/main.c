@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include "MW_File_Iterator.h"
-#define VERSION 0.701
+#define VERSION 0.712
 #define FISIZE 100
 void MW_TestFunction(void* function,char* functionName)
 {
@@ -42,7 +42,8 @@ int main (void)
 	/* Current Use test */
 	printf("Current use test\n");
 	out=fopen("test4.txt","wb");
-	MW_FI_CreateIterator(&iterador,"test1.txt","test2.txt",FISIZE);
+	if((r=MW_FI_CreateIterator(&iterador,"test1.txt","test2.txt",FISIZE))!=MW_FI_CondRetOK)
+		printf("Create: %d\n",r);
 	while(MW_FI_AdvanceReading(iterador)!=MW_FI_CondRetEOF)
 	{
 		MW_FI_GetData(iterador,&vector,&limit);
@@ -62,6 +63,8 @@ int main (void)
 			fprintf(out,"%c",vector[i]);
 		}
 	MW_FI_AdvanceWriting(iterador);
+	MW_FI_DebugStruct(iterador);
 	MW_FI_DestroyIterator(iterador);
+	system("PAUSE");
 	return 0;
 }
