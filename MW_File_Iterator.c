@@ -84,7 +84,7 @@ MW_FI_tpCondRet MW_FI_AdvanceWriting(MW_FI_tppFI iterator)
     for(i=0; i<(iterator->sizeOfActualData) && (iterator->bytesWritten)<(iterator->fSize); i++)
     {
         fprintf(iterator->output,"%c",iterator->data[i]);
-		printf("%c",iterator->data[i]);
+		//printf("%c",iterator->data[i]);
 			iterator->bytesWritten++;
     }
 	if(iterator->bytesWritten>=iterator->fSize)
