@@ -102,6 +102,7 @@ MW_FI_tpCondRet MW_FI_DestroyIterator(MW_FI_tppFI iterator)
     iterator->bytesWritten=0;
     iterator->input=NULL;
     iterator->output=NULL;
+	free(iterator); // frees struct memory
     return MW_FI_CondRetOK;
 }
 void MW_FI_DebugStruct(MW_FI_tppFI iterator)
