@@ -22,6 +22,8 @@ typedef struct MW_FI_tagFI
     /* Vector that is exposed */
     MW_Int sizeOfData;
     /* size of data vector */
+	MW_Int sizeOfActualData;
+	/* size of data vector actually filled with information */
     
     
 } MW_FI_tpFI ;
@@ -40,6 +42,7 @@ MW_FI_tpCondRet MW_FI_CreateIterator( MW_FI_tppFI* refFI, char* inputPath, char*
     if(!((*refFI)->data))
         return MW_FI_CondRetMemoryLack;
     (*refFI)->sizeOfData=sizeOfData;
+	(*refFI)->sizeOfActualData=0; //there's no data yet
     (*refFI)->fSize=ftell((*refFI)->input); //Informs the size
     rewind((*refFI)->input); // resets to the begining;
     
@@ -49,7 +52,7 @@ MW_FI_tpCondRet MW_FI_CreateIterator( MW_FI_tppFI* refFI, char* inputPath, char*
 MW_FI_tpCondRet MW_FI_GetData(MW_FI_tppFI iterator, void** refVector, MW_Int * refSizeOfVector)
 {
     *refVector=(void*)iterator->data;
-    *refSizeOfVector=(MW_Int)iterator->sizeOfData;
+    *refSizeOfVector=(MW_Int)iterator->sizeOfActualData;
     return MW_FI_CondRetOK;
 }
 MW_FI_tpCondRet MW_FI_AdvanceReading(MW_FI_tppFI iterator)
@@ -65,22 +68,27 @@ MW_FI_tpCondRet MW_FI_AdvanceReading(MW_FI_tppFI iterator)
     if(r==EOF)
     {
         i--; //cancells iteration
+		iterator->sizeOfActualData=i;
         return MW_FI_CondRetEOF;
     }
 //Warning not sure yet if another data field is required to save i value ( shorter vector limit by the EOF
-    
+	iterator->sizeOfActualData=iterator->sizeOfData;
     return MW_FI_CondRetOK;
 }
 MW_FI_tpCondRet MW_FI_AdvanceWriting(MW_FI_tppFI iterator)
 {
     
     MW_Int i;
-    for(i=0; i<iterator->sizeOfData && iterator->bytesWritten<iterator->fSize; i++)
+	if(iterator->bytesWritten==iterator->fSize)
+		return MW_FI_CondRetFinishedWriting;
+    for(i=0; i<(iterator->sizeOfActualData) && (iterator->bytesWritten)<(iterator->fSize); i++)
     {
         fprintf(iterator->output,"%c",iterator->data[i]);
-        iterator->bytesWritten++;
+		//printf("%c",iterator->data[i]);
+			iterator->bytesWritten++;
     }
-    
+	if(iterator->bytesWritten>=iterator->fSize)
+		return MW_FI_CondRetFinishedWriting;
     return MW_FI_CondRetOK;
 }
 MW_FI_tpCondRet MW_FI_DestroyIterator(MW_FI_tppFI iterator)
@@ -94,5 +102,10 @@ MW_FI_tpCondRet MW_FI_DestroyIterator(MW_FI_tppFI iterator)
     iterator->bytesWritten=0;
     iterator->input=NULL;
     iterator->output=NULL;
+	free(iterator); // frees struct memory
     return MW_FI_CondRetOK;
+}
+void MW_FI_DebugStruct(MW_FI_tppFI iterator)
+{	
+	printf("output: %d\n ",iterator->output);
 }
