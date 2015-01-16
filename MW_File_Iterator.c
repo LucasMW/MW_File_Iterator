@@ -105,13 +105,18 @@ MW_FI_tpCondRet MW_FI_DestroyIterator(MW_FI_tppFI iterator)
 	free(iterator); // frees struct memory
     return MW_FI_CondRetOK;
 }
-void MW_FI_DebugStruct(MW_FI_tppFI iterator)
-{	
+static void MW_FI_DebugStruct(MW_FI_tppFI iterator)
+{
+    printf("input: %d\n ",iterator->output);
 	printf("output: %d\n ",iterator->output);
+    printf("FSize %d\n ",iterator->fSize);
+    printf("SizeOfData: %d\n ",iterator->sizeOfData);
+    printf("SizeOfActualData: %d\n ",iterator->sizeOfActualData);
+    printf("BytesWritten: %d\n ",iterator->bytesWritten);
 }
 char* MW_FI_Vesion(void)
 {
-    char* version="MW_FI_v1.0a";
+    char* version="MW_FI_v1.001a";
     return version;
     
 }
