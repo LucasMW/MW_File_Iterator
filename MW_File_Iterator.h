@@ -35,6 +35,8 @@ MW_FI_tpCondRet MW_FI_GetData(MW_FI_tppFI iterator, void** refVector , MW_Int * 
 MW_FI_tpCondRet MW_FI_AdvanceWriting(MW_FI_tppFI iterator);
 MW_FI_tpCondRet MW_FI_AdvanceReading(MW_FI_tppFI iterator);
 MW_FI_tpCondRet MW_FI_DestroyIterator(MW_FI_tppFI iterator);
-void MW_FI_DebugStruct(MW_FI_tppFI iterator);
+
+char* MW_FI_Version(void);
+
 
 #endif /* defined(__MW_File_Iterator__MW_File_Iterator__) */

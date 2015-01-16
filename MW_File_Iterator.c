@@ -109,3 +109,9 @@ void MW_FI_DebugStruct(MW_FI_tppFI iterator)
 {	
 	printf("output: %d\n ",iterator->output);
 }
+char* MW_FI_Vesion(void)
+{
+    char* version="MW_FI_v1.0a";
+    return version;
+    
+}
