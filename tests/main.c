@@ -5,9 +5,6 @@
 void MW_TestFunction(void* function,char* functionName)
 {
 	int r;
-	
-	
-	
 }
 int main (void)
 {
